@@ -48,7 +48,7 @@
 | :--- | :--- |
 | **Bruker** | `.xrdml`, `.raw`, `.lis`, `.lst` |
 | **PANalytical** | `.sd`, `.udi` |
-| **Rigaku** | `.dat`, `.asc`, `.uxd`, `.ras` |
+| **Rigaku** | `.dat`, `.asc`, `.uxd` |
 | **Shimadzu** | `.raw`, `.txt` |
 | **Generic/ASCII** | `.txt`, `.csv`, `.xy`, `.chi`, `.asc` |
 
