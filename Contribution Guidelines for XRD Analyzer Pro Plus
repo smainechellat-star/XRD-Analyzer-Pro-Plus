@@ -1,0 +1,100 @@
+Thank you for considering contributing to the XRD Analyzer Pro Plus project! We appreciate your efforts to help improve this open-source tool for the geoscience community. This document outlines the guidelines for contributing to the project, ensuring that our collaborative efforts maintain high code quality and scientific rigor.
+📋 Author Information
+Author: Smaine Chellat
+Email: smaine.chellat@gmail.com (or smaine.chellat@umc.edu.dz)
+ORCID: 0000-0003-4103-0436
+Affiliation: University Constantine 1, Geological Department, Algeria
+Project DOI: 10.5281/zenodo.19236138
+License: MIT License
+🚀 How to Contribute
+We welcome contributions in the form of bug reports, feature requests, documentation improvements, and code submissions. Please follow these steps to contribute:
+1. Fork the Repository
+Create a copy of the repository under your personal GitHub account by clicking the "Fork" button at the top right of the repository page.
+2. Clone Your Fork
+Clone your forked repository to your local machine:
+bash
+12
+3. Create a Branch
+Create a new feature branch for your changes. Use a descriptive name:
+bash
+123
+4. Make Your Changes
+Implement your changes. Ensure that:
+Your code follows the existing style (PEP 8 for Python).
+You add comments for complex logic, especially in parsing algorithms or mathematical calculations.
+You update the readme_screen.py if you add new features visible in the GUI.
+5. Test Your Changes
+Run the application locally to ensure no regressions occur.
+If adding a new file parser, test it with at least 3 different sample files of that format.
+If modifying the identification algorithm, verify results against known standards (e.g., Quartz, Calcite).
+6. Commit Your Changes
+Write clear and informative commit messages:
+bash
+1234
+7. Submit a Pull Request
+Push your branch to your fork and open a Pull Request (PR) to the main branch of the original repository:
+bash
+1
+In your PR description, please include:
+A summary of the changes.
+The problem solved or feature added.
+Any relevant testing performed.
+Screenshots if UI changes are involved.
+🛠️ Standards Compliance
+To maintain the quality and reliability of XRD Analyzer Pro Plus, please adhere to the following standards:
+Code Style
+Language: Python 3.8+
+Style Guide: Follow PEP 8 guidelines.
+Formatting: Use 4 spaces for indentation.
+Naming: Use snake_case for variables/functions and PascalCase for classes.
+Documentation
+Include docstrings for all new functions and classes.
+Update the in-app readme_screen.py "New Features" tab if you add significant functionality.
+Update the external README.md if installation steps or dependencies change.
+Testing
+Include test cases for new parsers in the tests/ directory.
+Ensure existing tests pass before submitting a PR.
+For algorithmic changes, provide a comparison table (like Table 1 in the manuscript) showing validation against standard data.
+Data Privacy & Security
+Do not commit sensitive data (e.g., specific laboratory paths, private keys, registry_key.reg).
+Do not commit large binary database files (>50MB) directly; use links or instructions to download them separately.
+Ensure config.json and settings.ini are excluded via .gitignore if they contain user-specific paths.
+💡 Features We Are Looking For
+We particularly welcome contributions in the following areas:
+New File Format Parsers: Support for additional proprietary formats (e.g., older Siemens, Scintag, or newer Bruker versions).
+Database Enhancements: Scripts to convert other open databases (e.g., RRUFF) into our SQLite/JSON format.
+Algorithm Improvements: Better background subtraction methods, peak deconvolution, or noise reduction techniques.
+Quantitative Analysis: Basic implementation of Reference Intensity Ratio (RIR) methods for semi-quantitative analysis.
+UI/UX Improvements: Dark mode support, improved touch gestures, or accessibility enhancements.
+Translations: Adding support for languages other than English (e.g., Arabic, French, Spanish) in the GUI.
+💻 System Requirements
+To run and develop XRD Analyzer Pro Plus, you need:
+Operating Systems
+Windows 10/11
+Linux (Ubuntu 20.04+, Fedora, etc.)
+macOS (10.15+)
+Core Dependencies
+Python: 3.8 or higher
+Package Manager: pip
+Python Libraries
+Install required dependencies via:
+bash
+1
+Key libraries include:
+numpy (Numerical processing)
+scipy (Signal processing, peak detection)
+matplotlib (Graphing and visualization)
+tkinter (GUI framework, usually included with Python)
+pandas (Data handling)
+openpyxl (Excel export)
+Optional Dependencies (For Advanced Features)
+rarfile + unrar: For loading RAR compressed databases.
+camelot-py[cv]: For extracting tables from PDF reports.
+Support & Questions
+If you have questions about contributing, encounter bugs, or need clarification on the codebase:
+GitHub Issues: Open an issue on the GitHub repository for bug reports or feature requests.
+Email: Contact the author directly at smaine.chellat@gmail.com.
+Discussion: Use the "Discussions" tab on GitHub for general questions or ideas.
+📜 License
+By contributing to XRD Analyzer Pro Plus, you agree that your contributions will be licensed under the MIT License, consistent with the rest of the project.
+Thank you for your contribution! Together, we can make high-quality mineralogical analysis accessible to researchers and students worldwide. 🌍🔬
