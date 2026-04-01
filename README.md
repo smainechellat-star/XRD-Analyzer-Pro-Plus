@@ -47,7 +47,7 @@
 | Vendor | Extensions |
 | :--- | :--- |
 | **Bruker** | `.xrdml`, `.raw`, `.lis`, `.lst` |
-| **PANalytical** | `.rd`, `.sd`, `.udf`, `.udi` |
+| **PANalytical** | `.sd`, `.udi` |
 | **Rigaku** | `.dat`, `.asc`, `.uxd`, `.ras` |
 | **Shimadzu** | `.raw`, `.txt` |
 | **Generic/ASCII** | `.txt`, `.csv`, `.xy`, `.chi`, `.asc` |
